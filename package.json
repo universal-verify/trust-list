@@ -2,11 +2,17 @@
   "name": "@universal-verify/trust-list",
   "version": "0.0.1",
   "description": "List of issuers trusted by Universal Verify",
+  "license": "MPL-2.0",
+  "author": "kalegd",
+  "type": "module",
   "keywords": [
     "trust-list",
     "mdoc",
     "iaca"
   ],
+  "publishConfig": {
+      "access": "public"
+  },
   "homepage": "https://github.com/universal-verify/trust-list#readme",
   "bugs": {
     "url": "https://github.com/universal-verify/trust-list/issues"
@@ -15,9 +21,6 @@
     "type": "git",
     "url": "git+https://github.com/universal-verify/trust-list.git"
   },
-  "license": "MPL-2.0",
-  "author": "kalegd",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
