@@ -52,4 +52,5 @@ _GitHub Actions will be used to automatically create an issue every month to sta
 - Users are responsible for their own security assessments
 - The maintainers are not liable for any damages arising from use of this list
 
+## Contact and Reporting
 To report security concerns, please email kale@universalverify.com
