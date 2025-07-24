@@ -8,7 +8,7 @@ This document outlines the criteria and evaluation process used to determine whe
 
 ### Primary Selection Criteria
 
-1. **Apple Recommendations**: We primarily include issuers that are recommended by Apple for use with Wallet and Apple's Verify with Wallet feature. These recommendations are based on Apple's evaluation of issuer capabilities and security practices.
+1. **Apple Recommendations**: We primarily include issuers that are recommended by [Apple](https://developer.apple.com/wallet/get-started-with-verify-with-wallet/) for use with Apple's Verify with Wallet feature. These recommendations are based on Apple's evaluation of issuer capabilities and security practices.
 
 2. **Certificate Revocation List (CRL) Support**: All included issuers must support Certificate Revocation List (CRL) functionality. This ensures that revoked certificates can be identified and excluded from trust, maintaining the security and integrity of the trust list.
 

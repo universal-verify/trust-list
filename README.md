@@ -1,14 +1,34 @@
 # Trust List
 
-A JSON Schema-based list of digital credential issuers trusted by Universal Verify. This list is currently composed entirely of certificates recommended by [Apple](https://developer.apple.com/wallet/get-started-with-verify-with-wallet/)
+A JSON list of digital credential issuers trusted by Universal Verify
 
 ## Files
 
-- `trust-list.json` - The main trust list containing trusted issuers
+- `trust-list.json` - The main trust list containing trusted issuers and their certificates
 - `trust-list.schema.json` - JSON Schema defining the structure and validation rules
 - `scripts/validate-trust-list.js` - Validation script for checking trust list integrity
 - `scripts/pem-to-entry.js` - Utility for extracting issuer IDs from X.509 certificates
 - `TRUST_POLICY.md` - Criteria and governance for issuer inclusion in the trust list
+
+## Trusted Issuers
+
+The following government entities are currently included in our trust list, all of which support Certificate Revocation List (CRL) functionality and are recommended by Apple for use with Wallet and Apple's Verify with Wallet feature:
+
+### United States
+- Arizona Department of Transportation
+- California Department of Motor Vehicles
+- Colorado Department of Revenue
+- Georgia Department of Driver Services
+- Hawaii Department of Transportation
+- Maryland MVA
+- New Mexico Taxation and Revenue Department
+- Ohio Department of Public Safety
+- PR Department of Transportation and Public Works
+
+### International
+- Japan Agency for Local Authority Information Systems
+
+For detailed information about our selection criteria and governance process, see [TRUST_POLICY.md](TRUST_POLICY.md).
 
 ## Validation
 
