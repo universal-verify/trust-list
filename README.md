@@ -8,6 +8,7 @@ A JSON Schema-based list of digital credential issuers trusted by Universal Veri
 - `trust-list.schema.json` - JSON Schema defining the structure and validation rules
 - `scripts/validate-trust-list.js` - Validation script for checking trust list integrity
 - `scripts/pem-to-entry.js` - Utility for extracting issuer IDs from X.509 certificates
+- `TRUST_POLICY.md` - Criteria and governance for issuer inclusion in the trust list
 
 ## Validation
 
