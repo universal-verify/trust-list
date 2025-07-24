@@ -51,3 +51,5 @@ _GitHub Actions will be used to automatically create an issue every month to sta
 - This trust list is provided "as is" without warranties
 - Users are responsible for their own security assessments
 - The maintainers are not liable for any damages arising from use of this list
+
+To report security concerns, please email kale@universalverify.com
