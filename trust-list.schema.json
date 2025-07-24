@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Trust List",
+  "type": "array",
+  "description": "A list of trusted issuers for digital identity verification",
+  "items": {
+    "type": "object",
+    "required": ["issuer_id", "entity_type", "name"],
+    "properties": {
+      "issuer_id": {
+        "type": "string",
+        "description": "DID or unique identifier for the issuer"
+      },
+      "entity_type": {
+        "type": "string",
+        "enum": [
+          "government",
+          "educational_institution",
+          "commercial",
+          "non_profit",
+          "international_body",
+          "federated_network",
+          "other"
+        ],
+        "description": "The high-level category of the entity acting as the issuer"
+      },
+      "name": {
+        "type": "string",
+        "description": "Official name for the entity"
+      },
+      "certificates": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["certificate", "certificate_format", "source"],
+          "properties": {
+            "certificate": {
+              "type": "string",
+              "description": "PEM-encoded X.509 certificate used for document signing"
+            },
+            "certificate_format": {
+              "type": "string",
+              "enum": ["pem"],
+              "description": "Format of the certificate (currently only PEM is supported)"
+            },
+            "source": {
+              "type": "string",
+              "description": "Source of the entity information",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "description": "Array of certificates issued with the same subject key identifier with the most recent first. It is expected that only one certificate per subject is present, so if only updating the expiration date, the old certificate should be removed when adding the new one."
+      }
+    },
+    "additionalProperties": false,
+    "allOf": [
+      {
+        "if": {
+          "properties": {
+            "issuer_id": {
+              "type": "string",
+              "pattern": "^x509_aki:"
+            }
+          }
+        },
+        "then": {
+          "required": ["certificates"]
+        }
+      }
+    ]
+  }
+}
