@@ -47,6 +47,10 @@
               "type": "string",
               "description": "Source of the entity information",
               "minLength": 1
+            },
+            "allowExpired": {
+              "type": "boolean",
+              "description": "Whether to allow expired certificates"
             }
           },
           "additionalProperties": false

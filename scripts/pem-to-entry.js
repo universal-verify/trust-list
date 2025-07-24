@@ -162,7 +162,7 @@ function addEntryToTrustList(entry) {
             let certificateUpdated = false;
             
             // Check existing certificates for matches
-            existingEntry.certificates.forEach((existingCert, index) => {
+            existingEntry.certificates.forEach((existingCert) => {
                 // Check if certificates are identical
                 if (existingCert.certificate == newCert.certificate) {
                     certificateExists = true;
@@ -172,8 +172,9 @@ function addEntryToTrustList(entry) {
                         const existingSki = extractSubjectKeyIdentifierFromCert(existingCert.certificate);
                         const newSki = extractSubjectKeyIdentifierFromCert(newCert.certificate);
                         
-                        if (existingSki === newSki) {
-                            existingEntry.certificates[index].certificate = newCert.certificate;
+                        if (existingSki == newSki) {
+                            existingCert.certificate = newCert.certificate;
+                            delete existingCert.allowExpired;
                             certificateExists = true;
                             certificateUpdated = true;
                         }

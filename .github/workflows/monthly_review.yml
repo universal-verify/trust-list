@@ -1,0 +1,42 @@
+name: Monthly Review
+on:
+  schedule:
+    - cron: 0 9 1 * *
+
+jobs:
+  create_issue:
+    name: Monthly Review
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Create monthly review issue
+        run: |
+          new_issue_url=$(gh issue create \
+            --title "$TITLE" \
+            --assignee "$ASSIGNEES" \
+            --body "$BODY")
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          TITLE: Monthly Review
+          ASSIGNEES: kalegd
+          BODY: |
+            ### Monthly Trust List Review
+            
+            This issue is automatically created on the first of each month to review the trust list.
+            
+            #### Tasks
+            - [ ] Review the list of [Apple recommended issuers](https://developer.apple.com/wallet/get-started-with-verify-with-wallet/)
+            - [ ] Review the [trust policy](TRUST_POLICY.md)
+            - [ ] Review the [trust list](trust-list.json)
+            - [ ] Run the validation scripts to check for expired certificates and schema errors
+            
+            #### How to run validation scripts
+            ```bash
+            # Validate trust list schema
+            node scripts/validate-trust-list.js
+            
+            # Check certificate expirations
+            node scripts/check-certificate-expirations.js
+            ```

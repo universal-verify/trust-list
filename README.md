@@ -6,7 +6,8 @@ A JSON list of digital credential issuers trusted by Universal Verify
 
 - `trust-list.json` - The main trust list containing trusted issuers and their certificates
 - `trust-list.schema.json` - JSON Schema defining the structure and validation rules
-- `scripts/validate-trust-list.js` - Validation script for checking trust list integrity
+- `scripts/validate-trust-list.js` - Validation script for checking trust list schema integrity
+- `scripts/check-certificate-expirations.js` - Script for checking certificate expiration dates
 - `scripts/pem-to-entry.js` - Utility for extracting issuer IDs from X.509 certificates
 - `TRUST_POLICY.md` - Criteria and governance for issuer inclusion in the trust list
 
@@ -36,15 +37,19 @@ The project includes automatic validation to ensure `trust-list.json` conforms t
 
 ### Manual Validation
 
-Run the validation script directly:
+Run the validation scripts directly:
 
 ```bash
+# Validate trust list schema
 node scripts/validate-trust-list.js
+
+# Check certificate expirations
+node scripts/check-certificate-expirations.js
 ```
 
 ### Pre-commit Hook
 
-A Git pre-commit hook automatically validates `trust-list.json` before each commit. If validation fails, the commit is blocked.
+A Git pre-commit hook automatically validates the schema of `trust-list.json` before each commit. If validation fails, the commit is blocked.
 
 The hook only runs when `trust-list.json` is modified, so it won't slow down commits that don't affect the trust list.
 
