@@ -47,12 +47,6 @@ node scripts/validate-trust-list.js
 node scripts/check-certificate-expirations.js
 ```
 
-### Pre-commit Hook
-
-A Git pre-commit hook automatically validates the schema of `trust-list.json` before each commit. If validation fails, the commit is blocked.
-
-The hook only runs when `trust-list.json` is modified, so it won't slow down commits that don't affect the trust list.
-
 ### Certificate Processing
 
 To generate a trust list entry from an X.509 certificate:
