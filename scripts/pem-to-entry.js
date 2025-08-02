@@ -132,8 +132,8 @@ function createTrustListEntry(certInfo) {
         "name": certInfo.subject.organization || certInfo.subject.commonName || "",
         "certificates": [
             {
-                "certificate": cleanPemContent,
-                "certificate_format": "pem",
+                "data": cleanPemContent,
+                "format": "pem",
                 "source": ""
             }
         ]

@@ -32,13 +32,13 @@
         "type": "array",
         "items": {
           "type": "object",
-          "required": ["certificate", "certificate_format", "source"],
+          "required": ["data", "format", "source"],
           "properties": {
-            "certificate": {
+            "data": {
               "type": "string",
               "description": "PEM-encoded X.509 certificate used for document signing"
             },
-            "certificate_format": {
+            "format": {
               "type": "string",
               "enum": ["pem"],
               "description": "Format of the certificate (currently only PEM is supported)"
