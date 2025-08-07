@@ -28,8 +28,8 @@ jobs:
             
             #### Tasks
             - [ ] Review the list of [Apple recommended issuers](https://developer.apple.com/wallet/get-started-with-verify-with-wallet/)
-            - [ ] Review the [trust policy](TRUST_POLICY.md)
-            - [ ] Review the [trust list](trust-list.json)
+            - [ ] Review the [trust policy](https://github.com/universal-verify/trust-list/blob/main/TRUST_POLICY.md)
+            - [ ] Review the [trust list](https://github.com/universal-verify/trust-list/blob/main/trust-list.json)
             - [ ] Run the validation scripts to check for expired certificates and schema errors
             
             #### How to run validation scripts
