@@ -45,9 +45,9 @@ function checkCertificateExpirations(trustList) {
             issuer.certificates.forEach((cert, certIndex) => {
                 if(cert.allowExpired) return;
                 try {
-                    const expirationInfo = checkCertificateExpiration(cert.certificate);
+                    const expirationInfo = checkCertificateExpiration(cert.data);
                     
-                    if (!expirationInfo.isExpired) {
+                    if (expirationInfo.isExpired) {
                         expired.push(`Issuer ${issuerIndex + 1} (${issuer.name}): Certificate ${certIndex + 1} expired on ${expirationInfo.expirationDate.toISOString().split('T')[0]}`);
                     } else if (expirationInfo.expiresWithinMonth) {
                         warnings.push(`Issuer ${issuerIndex + 1} (${issuer.name}): Certificate ${certIndex + 1} expires in ${expirationInfo.daysUntilExpiration} days on ${expirationInfo.expirationDate.toISOString().split('T')[0]}`);
