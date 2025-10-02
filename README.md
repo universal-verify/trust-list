@@ -22,6 +22,7 @@ The following government entities are currently included in our trust list, all 
 - Georgia Department of Driver Services
 - Hawaii Department of Transportation
 - Maryland MVA
+- Montana Department of Justice
 - New Mexico Taxation and Revenue Department
 - Ohio Department of Public Safety
 - PR Department of Transportation and Public Works
