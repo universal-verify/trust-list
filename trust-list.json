@@ -66,6 +66,17 @@
       }
     ]
   }, {
+    "issuer_id": "x509_aki:I0-hpnnb-Y53pVjpRENxe7Xvdc8",
+    "entity_type": "government",
+    "name": "Montana Department of Justice",
+    "certificates": [
+      {
+        "data": "-----BEGIN CERTIFICATE-----\nMIIDTzCCAvagAwIBAgIUALz9VunJbM8WsRyc10+waZ7TncgwCgYIKoZIzj0EAwIwgZwxDjAMBgNV\nBAgTBVVTLU1UMQswCQYDVQQGEwJVUzEPMA0GA1UEBxMGSGVsZW5hMSYwJAYDVQQKEx1Nb250YW5h\nIERlcGFydG1lbnQgb2YgSnVzdGljZTEnMCUGA1UECxMeTW9udGFuYSBNb3RvciBWZWhpY2xlIERp\ndmlzaW9uMRswGQYDVQQDExJjYXJzd3NucC5kb2ptdC5nb3YwHhcNMjUwNTAyMDYwMDAwWhcNMzAw\nNTAyMDYwMDAwWjCBnDEOMAwGA1UECBMFVVMtTVQxCzAJBgNVBAYTAlVTMQ8wDQYDVQQHEwZIZWxl\nbmExJjAkBgNVBAoTHU1vbnRhbmEgRGVwYXJ0bWVudCBvZiBKdXN0aWNlMScwJQYDVQQLEx5Nb250\nYW5hIE1vdG9yIFZlaGljbGUgRGl2aXNpb24xGzAZBgNVBAMTEmNhcnN3c25wLmRvam10LmdvdjBZ\nMBMGByqGSM49AgEGCCqGSM49AwEHA0IABBdxLVV8czFFucq2cRy7ZLkvMScwfq4SgtTu2vhilCFy\n8BsjSt1QbefFoV+KpPqpCZJLQSWrhSopcS7GkDAgYe6jggESMIIBDjAOBgNVHQ8BAf8EBAMCAQYw\nEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUI0+hpnnb+Y53pVjpRENxe7Xvdc8wOQYDVR0S\nBDIwMIEaY2Fyc2ludGVyZmFjZXRpY2tldEBtdC5nb3aGEmh0dHBzOi8vbXZkbXQuZ292LzB8BgNV\nHR8EdTBzMHGgb6BthmtodHRwczovL2NhcnMuZG9qbXQuZ292L2d3cHViL01vYmlsZUNyZWRlbnRp\nYWwvQ2VydGlmaWNhdGVzL1Jldm9jYXRpb25zLzMyNTk2ZGQyZDIwZjQ4M2M5NzRhMzhjYTEwN2Q1\nNDNlLmNybDAQBgkrBgEEAYPFIQEEA01KUDAKBggqhkjOPQQDAgNHADBEAiBzw8qDQXADtdQz8KZo\npvLZZ15G9CD64accLrUYYehkXAIgQiCPWmy2wdDP22dNUnbFRqblP+1K2TYlEV2A789ZOBI=\n-----END CERTIFICATE-----",
+        "format": "pem",
+        "source": "https://mvdmt.gov/wp-content/uploads/mdl_certificate/MT-mDL-root-certificate.cer"
+      }
+    ]
+  }, {
     "issuer_id": "x509_aki:yYcBvfzjEXhrywase5x1u3ploe4",
     "entity_type": "government",
     "name": "New Mexico Taxation and Revenue Department",
