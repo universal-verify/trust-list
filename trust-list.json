@@ -131,5 +131,27 @@
         "source": "https://www.j-lis.go.jp/pn/mdociaca.html"
       }
     ]
+  }, {
+    "issuer_id": "x509_aki:ZQ9wReJ1csNhZ3sfoWXy5Oxv0ac",
+    "entity_type": "government",
+    "name": "Apple Inc.",
+    "certificates": [
+      {
+        "data": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIQaoszpPsbgR517fbRv3ThWzAKBggqhkjOPQQDAzBVMQsw\nCQYDVQQGEwJVUzETMBEGA1UECgwKQXBwbGUgSW5jLjExMC8GA1UEAwwoQXBwbGUg\nSXNzdWluZyBBdXRob3JpdHkgRUNDIFJvb3QgQ0EgLSBHMTAeFw0yNTA0MjkyMTM2\nMzRaFw00NTA0MjQyMTM2MzNaMFUxCzAJBgNVBAYTAlVTMRMwEQYDVQQKDApBcHBs\nZSBJbmMuMTEwLwYDVQQDDChBcHBsZSBJc3N1aW5nIEF1dGhvcml0eSBFQ0MgUm9v\ndCBDQSAtIEcxMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE7BhFhUOAzjz0TB/8hOTL\neC3PmqdOjQ/k/ZYNx2l4+N6u9x1N7qXpLqgy2IygddjsyDydeuRW+oxoderlKKuz\nTJGEfw5B/MxGbRsq7ybzVpWaSLfdKFn/Wyg+0XA1wzN3o4GFMIGCMA8GA1UdEwEB\n/wQFMAMBAf8wQAYDVR0SBDkwN4Y1aHR0cHM6Ly93d3cuYXBwbGUuY29tL2NlcnRp\nZmljYXRlYXV0aG9yaXR5L2Fwa2kyMDI1MDUwHQYDVR0OBBYEFGUPcEXidXLDYWd7\nH6Fl8uTsb9GnMA4GA1UdDwEB/wQEAwIBBjAKBggqhkjOPQQDAwNoADBlAjEA93FE\nMcoJf8hVP080WdFFb1bAROvmiOW/GGfvg7IMGC2T0uS1guywZJ1kIoc5hHjoAjBT\nKjBXbunuxyMjUo07mXnfGDkCkW+ggIswW+mxcrKZvEy1EOciol+/N0ViI9jnBRw=\n-----END CERTIFICATE-----",
+        "format": "pem",
+        "source": "https://www.apple.com/certificateauthority/apki202505/"
+      }
+    ]
+  }, {
+    "issuer_id": "x509_aki:taXH_AFcuSnQgLECaiofOquMVcQ",
+    "entity_type": "government",
+    "name": "Apple Inc.",
+    "certificates": [
+      {
+        "data": "-----BEGIN CERTIFICATE-----\nMIIC+jCCAoCgAwIBAgIQbwZwl4rwPpc5UqpvfHlLUjAKBggqhkjOPQQDAzBVMQsw\nCQYDVQQGEwJVUzETMBEGA1UECgwKQXBwbGUgSW5jLjExMC8GA1UEAwwoQXBwbGUg\nSXNzdWluZyBBdXRob3JpdHkgRUNDIFJvb3QgQ0EgLSBHMTAeFw0yNTA0MjkyMTQ1\nMjdaFw00MDA0MjUyMTQ1MjZaMFIxCzAJBgNVBAYTAlVTMRMwEQYDVQQKDApBcHBs\nZSBJbmMuMS4wLAYDVQQDDCVBcHBsZSBJc3N1aW5nIEF1dGhvcml0eSBFQ0MgQ0Eg\nMSAtIEcxMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAETZHKqMvi7URBiwFpSHP/Qfoy\nODkSmRgEfy7ihe2uYgIhS4bgEyL5tbgy8nidlic59c4jLVj8vYz11upIeeb6LMFw\n8mG0Pd2tNoNdNDdxoakzobM9Ra9QwSyqKcE5H3nFo4IBFjCCARIwEgYDVR0TAQH/\nBAgwBgEB/wIBADAfBgNVHSMEGDAWgBRlD3BF4nVyw2Fnex+hZfLk7G/RpzBABgNV\nHREEOTA3hjVodHRwczovL3d3dy5hcHBsZS5jb20vY2VydGlmaWNhdGVhdXRob3Jp\ndHkvYXBraTIwMjUwNTAYBgNVHSAEETAPMA0GCyqGSIb3Y2QFFgEBMBsGA1UdJQQU\nMBIGByiBjF0FAQIGByiBtTQEAQIwMwYDVR0fBCwwKjAooCagJIYiaHR0cDovL2Ny\nbC5hcHBsZS5jb20vYWlhZXJjYWcxLmNybDAdBgNVHQ4EFgQUtaXH/AFcuSnQgLEC\naiofOquMVcQwDgYDVR0PAQH/BAQDAgEGMAoGCCqGSM49BAMDA2gAMGUCMQD6ximN\nM1vdv00QCB2/vz5dxEVTLCqinMnLMnlQT2xUFTL7YNE+qK5v6B7ttS/38sQCMDHU\npAhT+AhTJKFi8FNMvT06IKp/Lc4FZ8g/Rd3Sp5jde5oGJZQwnBs2NqDRrLndzQ==\n-----END CERTIFICATE-----",
+        "format": "pem",
+        "source": "https://www.apple.com/certificateauthority/apki202505/"
+      }
+    ]
   }
 ]

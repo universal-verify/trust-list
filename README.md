@@ -26,6 +26,8 @@ The following government entities are currently included in our trust list, all 
 - New Mexico Taxation and Revenue Department
 - Ohio Department of Public Safety
 - PR Department of Transportation and Public Works
+- West Virginia
+- Passports
 
 ### International
 - Japan Agency for Local Authority Information Systems
