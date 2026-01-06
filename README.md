@@ -21,6 +21,8 @@ The following government entities are currently included in our trust list, all 
 - Colorado Department of Revenue
 - Georgia Department of Driver Services
 - Hawaii Department of Transportation
+- Illinois Secretary of State
+- IowaDOT
 - Maryland MVA
 - Montana Department of Justice
 - New Mexico Taxation and Revenue Department
