@@ -10,15 +10,12 @@ This document outlines the criteria and evaluation process used to determine whe
 
 1. **Apple Recommendations**: We primarily include issuers that are recommended by [Apple](https://developer.apple.com/wallet/get-started-with-verify-with-wallet/) for use with Apple's Verify with Wallet feature. These recommendations are based on Apple's evaluation of issuer capabilities and security practices.
 
-2. **Certificate Revocation List (CRL) Support**: All included issuers must support Certificate Revocation List (CRL) functionality. This ensures that revoked certificates can be identified and excluded from trust, maintaining the security and integrity of the trust list.
-
-3. **Government or Recognized Authority**: Issuers should be government entities or other recognized authorities with the legal mandate to issue digital credentials.
+2. **Government or Recognized Authority**: Issuers should be government entities or other recognized authorities with the legal mandate to issue digital credentials.
 
 ## Criteria for Removal
 
 - Evidence of security compromise
 - Changes in issuer's legal authority or mandate
-- Failure to maintain CRL functionality
 
 ## Governance and Oversight
 
@@ -26,7 +23,6 @@ This document outlines the criteria and evaluation process used to determine whe
 
 - Review of Apple's updated recommendations
 - Review of certificate validity and expiration dates
-- Validation of CRL endpoints
 
 _GitHub Actions will be used to automatically create an issue every month to start the review process_
 
@@ -41,10 +37,6 @@ _GitHub Actions will be used to automatically create an issue every month to sta
 
 - Inclusion does not constitute endorsement of the issuer beyond their technical capabilities
 - The list may not be comprehensive of all qualified issuers
-
-### Technical Limitations
-
-- Digital Credential validation using this Trust list depends on the accuracy of issuer CRL information
 
 ### Legal Disclaimers
 

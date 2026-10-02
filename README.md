@@ -13,7 +13,7 @@ A JSON list of digital credential issuers trusted by Universal Verify
 
 ## Trusted Issuers
 
-The following government entities are currently included in our trust list, all of which support Certificate Revocation List (CRL) functionality and are recommended by Apple for use with Wallet and Apple's Verify with Wallet feature:
+The following issuers are currently included in our trust list and are recommended by Apple for use with Wallet and Apple's Verify with Wallet feature.
 
 ### United States
 - Arizona Department of Transportation
@@ -31,7 +31,7 @@ The following government entities are currently included in our trust list, all 
 - PR Department of Transportation and Public Works
 - VA mID IACA-A
 - West Virginia
-- Passports
+- Apple Inc. (for U.S. passports)
 
 ### International
 - Japan Agency for Local Authority Information Systems

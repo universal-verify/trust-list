@@ -210,7 +210,7 @@
     ]
   }, {
     "issuer_id": "x509_aki:ZQ9wReJ1csNhZ3sfoWXy5Oxv0ac",
-    "entity_type": "government",
+    "entity_type": "commercial",
     "name": "Apple Inc.",
     "certificates": [
       {
@@ -221,7 +221,7 @@
     ]
   }, {
     "issuer_id": "x509_aki:taXH_AFcuSnQgLECaiofOquMVcQ",
-    "entity_type": "government",
+    "entity_type": "commercial",
     "name": "Apple Inc.",
     "certificates": [
       {
