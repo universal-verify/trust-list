@@ -23,11 +23,13 @@ The following government entities are currently included in our trust list, all 
 - Hawaii Department of Transportation
 - Illinois Secretary of State
 - IowaDOT
-- Maryland MVA
 - Montana Department of Justice
 - New Mexico Taxation and Revenue Department
+- North Dakota Department of Transportation
 - Ohio Department of Public Safety
+- Service Oklahoma
 - PR Department of Transportation and Public Works
+- VA mID IACA-A
 - West Virginia
 - Passports
 
