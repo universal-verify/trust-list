@@ -89,10 +89,11 @@ The generated entry includes:
 
 Each trust list entry must include:
 
-- `issuer_id` - Unique identifier for the issuer (DID or x509_aki format)
-- `entity_type` - Type of entity (government, educational_institution, commercial, non_profit, international_body, federated_network, other)
+- `issuer_id` - Unique identifier for the issuer (x509_aki format)
+- `entity_type` - Type of entity (government, educational_institution, commercial, non_profit, international_body, other)
 - `name` - Official name for the entity
+- `certificates` - Array containing at least one certificate
 
 Additional requirements:
-- X.509 AKI issuers (issuer_id starting with "x509_aki:") require: certificates array
-- Each certificate must include: certificate (PEM format), certificate_format ("pem"), and source (non-empty string)
+
+- Each certificate must include: `data` (PEM certificate), `format` ("pem"), and `source` (non-empty string)

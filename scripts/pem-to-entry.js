@@ -174,7 +174,6 @@ function addEntryToTrustList(entry) {
                         
                         if (existingSki == newSki) {
                             existingCert.certificate = newCert.certificate;
-                            delete existingCert.allowExpired;
                             certificateExists = true;
                             certificateUpdated = true;
                         }
@@ -286,4 +285,3 @@ function main() {
 if (import.meta.url === `file://${process.argv[1]}`) {
     main();
 }
-  

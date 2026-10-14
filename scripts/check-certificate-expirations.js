@@ -43,7 +43,6 @@ function checkCertificateExpirations(trustList) {
     trustList.forEach((issuer, issuerIndex) => {
         if (issuer.certificates) {
             issuer.certificates.forEach((cert, certIndex) => {
-                if(cert.allowExpired) return;
                 try {
                     const expirationInfo = checkCertificateExpiration(cert.data);
                     
@@ -113,4 +112,4 @@ function main() {
 // Run the main function if this script is executed directly
 if (import.meta.url === `file://${process.argv[1]}`) {
     main();
-} 
+}
