@@ -44,6 +44,53 @@
       }
     ]
   }, {
+    "issuer_id": "x509_aki:89iQW85m0Cp-j-KwkyzezjpTYhs",
+    "entity_type": "government",
+    "name": "Arkansas Department of Finance and Administration",
+    "certificates": [
+      {
+        "data": "-----BEGIN CERTIFICATE-----\nMIIDBTCCAougAwIBAgIUTd8+XDzYqfjdQJEIfOvF25McIP8wCgYIKoZIzj0EAwMw\nfTELMAkGA1UEBhMCVVMxDjAMBgNVBAgMBVVTLUFSMTEwLwYDVQQKDChEZXBhcnRt\nZW50IG9mIEZpbmFuY2UgYW5kIEFkbWluaXN0cmF0aW9uMSswKQYDVQQDDCJVUy1B\nUiBQUk9EIElBQ0EgZm9yIFNBTVNVTkcgV2FsbGV0MB4XDTI1MDQyMzIwMDUyNVoX\nDTM0MDQyMjIwMDUyNVowfTELMAkGA1UEBhMCVVMxDjAMBgNVBAgMBVVTLUFSMTEw\nLwYDVQQKDChEZXBhcnRtZW50IG9mIEZpbmFuY2UgYW5kIEFkbWluaXN0cmF0aW9u\nMSswKQYDVQQDDCJVUy1BUiBQUk9EIElBQ0EgZm9yIFNBTVNVTkcgV2FsbGV0MHYw\nEAYHKoZIzj0CAQYFK4EEACIDYgAEYSF1iQuAnVkz/Ckuz3Uo1gEQyigKhHu2jv5N\nbCpsWx5zS8/hwPebcFSZHOWPp+o/9gWeSw4njr94GgPVSBijIrsueoPLYNoU+paO\naRo1Ni53Hq5+EQBCxn0gMknpjfDPo4HLMIHIMB0GA1UdDgQWBBTz2JBbzmbQKn6P\n4rCTLN7OOlNiGzAOBgNVHQ8BAf8EBAMCAQYwEgYDVR0TAQH/BAgwBgEB/wIBADAy\nBgNVHRIEKzAphidodHRwczovL3d3dy5kZmEuYXJrYW5zYXMuZ292L21vYmlsZS1p\nZC8wTwYDVR0fBEgwRjBEoEKgQIY+aHR0cDovL21kbC5kZmEuYXJrYW5zYXMuZ292\nL3VzLWFyLXByb2QtaWFjYS1zYW1zdW5nLXdhbGxldC5jcmwwCgYIKoZIzj0EAwMD\naAAwZQIwAu/WSlPnsgJSfCFYcaSuWNEQScSN0s11KflsHMheQS4E1JuS1sUVq5xz\nD3gi2xWrAjEA8tqSDef9M42gKxioN7Zs2WXHbe1qo5vY/Xdxgrdv5lxQfAnmbQI0\nkyHzYRvGOHe/\n-----END CERTIFICATE-----",
+        "format": "pem",
+        "source": "https://www.dfa.arkansas.gov/mobile-id/"
+      }
+    ]
+  },
+  {
+    "issuer_id": "x509_aki:kxl5Ob5ci3mNRHKJueLs9LsUkCE",
+    "entity_type": "government",
+    "name": "Arkansas Department of Finance and Administration",
+    "certificates": [
+      {
+        "data": "-----BEGIN CERTIFICATE-----\nMIIDATCCAoigAwIBAgIUE/H/bUuB4oVZD65I4wBDR35PKkkwCgYIKoZIzj0EAwMw\nfDELMAkGA1UEBhMCVVMxDjAMBgNVBAgMBVVTLUFSMTEwLwYDVQQKDChEZXBhcnRt\nZW50IG9mIEZpbmFuY2UgYW5kIEFkbWluaXN0cmF0aW9uMSowKAYDVQQDDCFVUy1B\nUiBQUk9EIElBQ0EgZm9yIEdPT0dMRSBXYWxsZXQwHhcNMjUwNDIzMjAwNDM0WhcN\nMzQwNDIyMjAwNDM0WjB8MQswCQYDVQQGEwJVUzEOMAwGA1UECAwFVVMtQVIxMTAv\nBgNVBAoMKERlcGFydG1lbnQgb2YgRmluYW5jZSBhbmQgQWRtaW5pc3RyYXRpb24x\nKjAoBgNVBAMMIVVTLUFSIFBST0QgSUFDQSBmb3IgR09PR0xFIFdhbGxldDB2MBAG\nByqGSM49AgEGBSuBBAAiA2IABEwjws36bmiJjdbmz/805+G+8oiVURnZRdws7KOC\nqyRGT2Ix9u9xG8V08Y07x0+fOmS9OnZcafhfqKAUOee+AMv+/PDgINOdvIlRavz6\nk+QIVrirpspKsjKEKZ8r4TXQVKOByjCBxzAdBgNVHQ4EFgQUkxl5Ob5ci3mNRHKJ\nueLs9LsUkCEwDgYDVR0PAQH/BAQDAgEGMBIGA1UdEwEB/wQIMAYBAf8CAQAwMgYD\nVR0SBCswKYYnaHR0cHM6Ly93d3cuZGZhLmFya2Fuc2FzLmdvdi9tb2JpbGUtaWQv\nME4GA1UdHwRHMEUwQ6BBoD+GPWh0dHA6Ly9tZGwuZGZhLmFya2Fuc2FzLmdvdi91\ncy1hci1wcm9kLWlhY2EtZ29vZ2xlLXdhbGxldC5jcmwwCgYIKoZIzj0EAwMDZwAw\nZAIwNBdYTCAZxNb2LAl2OlyQVcXB8sLKvOP49O4DJ7R/IG1b6WAN5CshkZd0BCPI\nmV6EAjBEsJdZnAmWV0cIGxELPnCtl/npPYBFkx5MnKO7UYF7O44XZsqVIMIWmna2\n+Hy3a9I=\n-----END CERTIFICATE-----",
+        "format": "pem",
+        "source": "https://www.dfa.arkansas.gov/mobile-id/"
+      }
+    ]
+  },
+  {
+    "issuer_id": "x509_aki:H0O-WYleyh4Az3FAvgtbM55qhkg",
+    "entity_type": "government",
+    "name": "Arkansas Department of Finance and Administration",
+    "certificates": [
+      {
+        "data": "-----BEGIN CERTIFICATE-----\nMIIDAjCCAoigAwIBAgIUEpo6E+FQHFnPtAlKcm1hJaAmxOowCgYIKoZIzj0EAwMw\nfDELMAkGA1UEBhMCVVMxDjAMBgNVBAgMBVVTLUFSMTEwLwYDVQQKDChEZXBhcnRt\nZW50IG9mIEZpbmFuY2UgYW5kIEFkbWluaXN0cmF0aW9uMSowKAYDVQQDDCFVUy1B\nUiBQUk9EIElBQ0EgZm9yIElERU1JQSBXYWxsZXQwHhcNMjUwNDIzMjAwMTA1WhcN\nMzQwNDIyMjAwMTA1WjB8MQswCQYDVQQGEwJVUzEOMAwGA1UECAwFVVMtQVIxMTAv\nBgNVBAoMKERlcGFydG1lbnQgb2YgRmluYW5jZSBhbmQgQWRtaW5pc3RyYXRpb24x\nKjAoBgNVBAMMIVVTLUFSIFBST0QgSUFDQSBmb3IgSURFTUlBIFdhbGxldDB2MBAG\nByqGSM49AgEGBSuBBAAiA2IABDKeA6Rnw+72kClWBnEf+R4aQ8tHooGuxs7e0uL1\nwuZ/bwGJcRAsjy2bkc4BVvDbdBQD1iw4IAVVv/iZtyGCBCDod8vq/6ATQQxAcC/w\nmdOTLyCvS5lpdSQEj38ZGaEmCaOByjCBxzAdBgNVHQ4EFgQUH0O+WYleyh4Az3FA\nvgtbM55qhkgwDgYDVR0PAQH/BAQDAgEGMBIGA1UdEwEB/wQIMAYBAf8CAQAwMgYD\nVR0SBCswKYYnaHR0cHM6Ly93d3cuZGZhLmFya2Fuc2FzLmdvdi9tb2JpbGUtaWQv\nME4GA1UdHwRHMEUwQ6BBoD+GPWh0dHA6Ly9tZGwuZGZhLmFya2Fuc2FzLmdvdi91\ncy1hci1wcm9kLWlhY2EtaWRlbWlhLXdhbGxldC5jcmwwCgYIKoZIzj0EAwMDaAAw\nZQIxALWB6meNuAMdxMZVaxXI5zg+kbeUukS3Jg3SCCTgj+Tk01Ej+wEgZgAt9FwA\n/gYfdwIwI4ZPVaQo3NBaLVHVQnMtdnpPNKBb0xVU+zBRroyozoKm3YJD3xJ9PLYY\nfvzCiePP\n-----END CERTIFICATE-----",
+        "format": "pem",
+        "source": "https://www.dfa.arkansas.gov/mobile-id/"
+      }
+    ]
+  },
+  {
+    "issuer_id": "x509_aki:Ts6wLm4T2AZV0Eeq3mR9ZwyoafI",
+    "entity_type": "government",
+    "name": "Arkansas Department of Finance and Administration",
+    "certificates": [
+      {
+        "data": "-----BEGIN CERTIFICATE-----\nMIIC/jCCAoWgAwIBAgIUFQrShkR49fol2YHvZwSjdNuK1f8wCgYIKoZIzj0EAwMw\nezELMAkGA1UEBhMCVVMxDjAMBgNVBAgMBVVTLUFSMTEwLwYDVQQKDChEZXBhcnRt\nZW50IG9mIEZpbmFuY2UgYW5kIEFkbWluaXN0cmF0aW9uMSkwJwYDVQQDDCBVUy1B\nUiBQUk9EIElBQ0EgZm9yIEFQUExFIFdhbGxldDAeFw0yNTA0MjMyMDAzMjVaFw0z\nNDA0MjIyMDAzMjVaMHsxCzAJBgNVBAYTAlVTMQ4wDAYDVQQIDAVVUy1BUjExMC8G\nA1UECgwoRGVwYXJ0bWVudCBvZiBGaW5hbmNlIGFuZCBBZG1pbmlzdHJhdGlvbjEp\nMCcGA1UEAwwgVVMtQVIgUFJPRCBJQUNBIGZvciBBUFBMRSBXYWxsZXQwdjAQBgcq\nhkjOPQIBBgUrgQQAIgNiAAS6r3rSOdTiXbynCHQQHI/04ontah3j7c9YHyUIVEIY\nVtnaHbZhTf7gOTPCGHm+EHbEUJIxd+GcTJLdSsUBhjPz5eLEmdbESHWuTA/jivAf\nGdl1brVu/m/x9ZpwTjByuFujgckwgcYwHQYDVR0OBBYEFE7OsC5uE9gGVdBHqt5k\nfWcMqGnyMA4GA1UdDwEB/wQEAwIBBjASBgNVHRMBAf8ECDAGAQH/AgEAMDIGA1Ud\nEgQrMCmGJ2h0dHBzOi8vd3d3LmRmYS5hcmthbnNhcy5nb3YvbW9iaWxlLWlkLzBN\nBgNVHR8ERjBEMEKgQKA+hjxodHRwOi8vbWRsLmRmYS5hcmthbnNhcy5nb3YvdXMt\nYXItcHJvZC1pYWNhLWFwcGxlLXdhbGxldC5jcmwwCgYIKoZIzj0EAwMDZwAwZAIw\ncU+3Fg2W0XjgF97t1dPrtqrllVgRQNwkxCMYBZy+zKhktv6/da2yyh31vLgeud9N\nAjAfr5PGWbxhjeqE+g7+TFOejGSxbkgfaRCmm8133kV+7Cdgwpi5EFDEIYJJDYOq\n+2Q=\n-----END CERTIFICATE-----",
+        "format": "pem",
+        "source": "https://www.dfa.arkansas.gov/mobile-id/"
+      }
+    ]
+  }, {
     "issuer_id": "x509_aki:u311Z5J6b8-fcnu4Cvc3L5wMUDY",
     "entity_type": "government",
     "name": "California Department of Motor Vehicles",

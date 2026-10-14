@@ -17,6 +17,7 @@ The following issuers are currently included in our trust list and are recommend
 
 ### United States
 - Arizona Department of Transportation
+- Arkansas Department of Finance and Administration
 - California Department of Motor Vehicles
 - Colorado Department of Revenue
 - Georgia Department of Driver Services
